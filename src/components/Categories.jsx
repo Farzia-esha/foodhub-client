@@ -13,7 +13,7 @@ const categories = [
   },
   {
     title: "Pizza",
-    img: "https://images.unsplash.com/photo-1548365328-9f547fb0952e",
+    img: "https://i.ibb.co.com/Psvp5V3h/image.png",
   },
   {
     title: "Fried Chicken",
