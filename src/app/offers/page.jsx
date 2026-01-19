@@ -28,7 +28,7 @@ export default function OffersPage() {
       {/* Hero Banner */}
       <section className="relative overflow-hidden shadow-lg rounded-xl">
         <img
-          src="https://images.unsplash.com/photo-1600891964599-f61ba0e24092"
+          src="https://i.ibb.co.com/9krp2DSN/image.png"
           alt="Offers Banner"
           className="object-cover w-full h-64"
         />

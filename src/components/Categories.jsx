@@ -33,7 +33,7 @@ const categories = [
   },
   {
     title: "Desserts",
-    img: "https://images.unsplash.com/photo-1505253216365-4cfa2b6c9a03",
+    img: "https://i.ibb.co.com/ymfG76rK/image.png",
   },
   {
     title: "Drinks",
