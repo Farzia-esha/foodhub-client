@@ -41,7 +41,6 @@ export default function Navbar() {
         <div className="items-center justify-center hidden gap-6 md:flex">
           <Link href="/" className={isActive("/")}>Home</Link>
           <Link href="/menu" className={isActive("/menu")}>Menu</Link>
-          <Link href="/shop" className={isActive("/shop")}>Shop</Link>
           <Link href="/about" className={isActive("/about")}>About</Link>
           <Link href="/offers" className={isActive("/offers")}>Offers</Link>
           <Link href="/contact" className={isActive("/contact")}>Contact</Link>
@@ -127,7 +126,6 @@ export default function Navbar() {
         <div className="px-4 pb-4 bg-white md:hidden">
           <Link href="/" className="block py-2">Home</Link>
           <Link href="/menu" className="block py-2">Menu</Link>
-          <Link href="/shop" className="block py-2">Shop</Link>
           <Link href="/about" className="block py-2">About</Link>
           <Link href="/offers" className="block py-2">Offers</Link>
           <Link href="/contact" className="block py-2">Contact</Link>
