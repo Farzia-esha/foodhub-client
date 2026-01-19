@@ -11,7 +11,7 @@ export default function MenuPage() {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    fetch("http://localhost:5000/items")
+    fetch(`https://project-server-two-delta.vercel.app/items`)
       .then(res => res.json())
       .then(data => {
         setItems(data);

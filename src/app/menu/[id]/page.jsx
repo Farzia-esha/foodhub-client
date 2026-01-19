@@ -10,7 +10,7 @@ export default function ItemDetails() {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    fetch(`http://localhost:5000/items/${id}`)
+    fetch(`https://project-server-two-delta.vercel.app/items/${id}`)
       .then(res => res.json())
       .then(data => {
         setItem(data);

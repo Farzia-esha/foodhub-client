@@ -8,7 +8,7 @@ export default function LatestItems() {
   const [items, setItems] = useState([]);
 
   useEffect(() => {
-    fetch("http://localhost:5000/latestItems")
+    fetch(`https://project-server-two-delta.vercel.app/latestItems`)
       .then(res => res.json())
       .then(data => setItems(data));
   }, []);
