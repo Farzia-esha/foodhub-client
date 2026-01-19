@@ -96,7 +96,7 @@ function LoginContent() {
 
         <p className="mt-4 text-center">
           New to our website?
-          <Link href="/Register" className="ml-1 text-blue-600">
+          <Link href="/register" className="ml-1 text-blue-600">
             Register
           </Link>
         </p>
