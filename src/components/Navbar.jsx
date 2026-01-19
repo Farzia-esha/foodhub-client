@@ -64,7 +64,7 @@ export default function Navbar() {
               </Link>
             </>
           ) : (
-            <div className="relative flex items-center gap-4">
+            <div className="relative flex items-center gap-4 ">
               {/* PROFILE */}
               <button
                 onClick={() => setDropdown(!dropdown)}
@@ -80,13 +80,16 @@ export default function Navbar() {
                 </span>
               </button>
 
+
+              
+
               {/* DROPDOWN */}
               {dropdown && (
                 <div className="absolute right-0 top-14 w-48 bg-white shadow rounded-md p-3 z-50">
                   <p className="font-semibold">{user.displayName}</p>
                   <p className="text-xs mb-2">{user.email}</p>
 
-                  <Link
+                  {/* <Link
                     href="/add-product"
                     className="flex items-center gap-2 py-2 hover:bg-gray-100 rounded"
                   >
@@ -98,7 +101,7 @@ export default function Navbar() {
                     className="flex items-center gap-2 py-2 hover:bg-gray-100 rounded"
                   >
                     <FaBox /> Manage Products
-                  </Link>
+                  </Link> */}
 
                   <button
                     onClick={handleLogout}
@@ -146,8 +149,8 @@ export default function Navbar() {
                 <p className="text-xs">{user.email}</p>
               </div>
 
-              <Link href="/add-product" className="block py-2">Add Product</Link>
-              <Link href="/manage-products" className="block py-2">Manage Products</Link>
+              {/* <Link href="/add-product" className="block py-2">Add Product</Link>
+              <Link href="/manage-products" className="block py-2">Manage Products</Link> */}
 
               <button
                 onClick={handleLogout}
